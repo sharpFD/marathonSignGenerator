@@ -173,10 +173,3 @@ function S(e, t, n) {
 function generatorMarathonSign (base, extra) {
     return S(base + extra,null,null)
 }
-
-
-let base = "appid=5PFuGr3Q7AA0vbJAFior&channel=windows-PC&device_id=Z8T23iCPme3DWGRAQLpJO2w0qY2Kq9-R&language=zh-CN&model=&noncesr=1635235066721&sys_version=&ts=1635235066&version=V1.0"
-const extra = "xbbaUe8PPVblLWaVP-iIJnUGhnDXmrm_"
-console.log(generatorMarathonSign(base, extra));
-
-//"1a95dcd95845fef1f19af0ac0bbde5fd"
